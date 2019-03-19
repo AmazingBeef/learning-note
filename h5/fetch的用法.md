@@ -10,7 +10,7 @@
 
 ### 2. fetch的基本用法
 
-### 	1. 参数：
+#### 	1. 参数：
 
 ​			param1：url
 
@@ -20,7 +20,7 @@
 	fecth('url', {});
 ```
 
-### 	2. get请求:
+#### 2. get请求:
 
 ```javascript
 // get使用方式
@@ -36,7 +36,7 @@
       })
 ```
 
-### 	3.post请求
+#### 	3.post请求
 
 ​		当调用post请求的时候，如果后端是nodejs，并且调用的是express模块，必须加上
 
@@ -64,7 +64,7 @@
                 })
 ```
 
-### 	4. 额外选项：
+#### 	4. 额外选项：
 
 ​			credentials: 是否发送cookie  //  include, same-origin, *omit
 
