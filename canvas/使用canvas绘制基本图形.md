@@ -69,7 +69,7 @@
 
 ```javascript
   	...
-  	ctx.beginPath()
+    ctx.beginPath()
     ctx.rect(50, 50, 50, 50)
     ctx.fillStyle = 'hotpink'
     ctx.fill()
